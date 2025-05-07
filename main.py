@@ -61,9 +61,9 @@ def main():
 
         entropy = calculate_entropy(pwd)
         if entropy < MIN_ENTROPY:
-            print(f"✗ Weak password ({entropy:.1f} bits entropy)")
+            print(f"Weak password ({entropy:.1f} bits entropy)")
         else:
-            print(f"✓ Strong password ({entropy:.1f} bits entropy)")
+            print(f"Strong password ({entropy:.1f} bits entropy)")
         
         print(get_recommendation(entropy))
 

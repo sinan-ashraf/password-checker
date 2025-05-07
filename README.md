@@ -2,7 +2,6 @@
 
 A simple, CLI-based Python tool to **evaluate password strength based on entropy**. It analyzes the variety and length of characters in a password and provides feedback and recommendations accordingly.
 
----
 
 ## 🚀 Features
 
@@ -15,7 +14,6 @@ A simple, CLI-based Python tool to **evaluate password strength based on entropy
 - Offers actionable **recommendations** for improving password strength.
 - No internet or external dependencies (other than Python standard library).
 
----
 
 ## 📖 What is Entropy?
 
@@ -26,7 +24,6 @@ Entropy is a measure of unpredictability or randomness. In the context of passwo
 Entropy = log2(pool_size) × password_length
 ```
 
----
 
 ## 💻 How to Use
 
@@ -45,7 +42,6 @@ python password_checker.py
 
 > You’ll see a prompt: `Enter password:` — just type in any password to test it.
 
----
 
 ## 📝 Example
 
@@ -61,7 +57,6 @@ Enter password: @G7vLp#2qR
 Strong password!
 ```
 
----
 
 ## 🔧 Customization
 
@@ -76,32 +71,4 @@ Recommended values:
 - 30+: Good
 - 40+: Strong
 
----
 
-## 📂 File Structure
-
-```
-password-entropy-checker/
-│
-├── password_checker.py     # Main password checking script
-└── README.md               # Project documentation
-```
-
----
-
-## ✅ Requirements
-
-- Python 3.x
-
-
----
-
-## 🛡️ Disclaimer
-
-This is a basic educational tool. It does not check against real-world breached password databases unless you integrate it with one.
-
----
-
-## 📃 License
-
-MIT License — feel free to use, modify, and distribute.
